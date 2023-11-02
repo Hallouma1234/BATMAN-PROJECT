@@ -45,13 +45,13 @@ nav{
 ul{
     list-style: none;
 }
-a{
+nav ul a{
 color: var(--with--color);
 font-size: 30px;
 font-weight: 500;
 font-family: 'Rajdhani';
 text-decoration: none;
 }
-a:hover{
+nav:ul a hover{
     color: var(--yellow-color)
 }
