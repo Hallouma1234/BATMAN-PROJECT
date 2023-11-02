@@ -2,6 +2,12 @@
     font-family: 'Rajdhani';
     src: url(../police/Rajdhani-Medium.ttf);
 }
+:root{
+    --yellow-color: #FFFF00;
+    --yellow-leight: #f8f184;
+    --blu--color: #19587D;
+    --with--color: #ffffff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +29,29 @@ button{
     margin: 0 auto;
     
 }
+body{
+   background-color: black;
+   color: white; 
+   font-family: 'space grotesk';
+   font-weight: 300;
+}
+/*designe de la navigation*/
 nav{
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+color: var(--with--color);
+font-size: 30px;
+font-weight: 500;
+font-family: 'Rajdhani';
+text-decoration: none;
+}
+a:hover{
+    color: var(--yellow-color)
 }
