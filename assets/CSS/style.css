@@ -55,3 +55,32 @@ text-decoration: none;
 nav:ul a hover{
     color: var(--yellow-color)
 }
+/* le desine pour la partie entete hero*/
+#hero{
+    background-image: url(../Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* designe de la section batman personnage*/
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+} 
+/* partie némici*/
+.personnage-nemici{
+    display: flex;
+    justify-content: space-between;
+}
+/* partie allies*/
+.personnage-allies{
+    display: flex;
+    justify-content: space-between;
+}
