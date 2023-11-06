@@ -68,6 +68,19 @@ nav:ul a hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 150px;
+}
+#hero .titre{ 
+    margin: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    color:var(--with--color);
+    font-size: 22px;
+    padding:3px 50px;
 }
 /* designe de la section batman personnage*/
 .batman-personnage{
