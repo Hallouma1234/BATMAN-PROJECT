@@ -7,13 +7,15 @@
     --yellow-leight: #f8f184;
     --blu--color: #19587D;
     --with--color: #ffffff;
+    --gradient-white: #eddebf3b;
+    --gradient-red: #8900093f;
 }
-*{
-    margin: 0;
+
+   *{ margin: 0;
     padding: 0;
     box-sizing: border-box;
+   }
 
-}
 h1{
     font-family:'Rajdhani';
     font-size: 36px;
@@ -80,7 +82,10 @@ nav:ul a hover{
     text-decoration: none;
     color:var(--with--color);
     font-size: 22px;
-    padding:3px 50px;
+    padding:10px 50px;
+    background: linear-gradient(
+        80deg, var(--gradient-white),var(--gradient-red)
+    );
 }
 /* designe de la section batman personnage*/
 .batman-personnage{
