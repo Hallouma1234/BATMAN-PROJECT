@@ -140,6 +140,15 @@ nav:ul a hover{
     justify-content: space-between;
 }
 /*desine de la parti multimedia*/
+#multimedia button{
+    position: relative;
+    top: 145px;
+    background: none;
+    border: none;
+}
+#multimedia button.right{
+    right: -85%;
+}
 #multimedia .slider-multimedia{
 display:flex;
 width: 60%;
@@ -150,8 +159,18 @@ margin: 40px auto;
 }
 #multimedia .slider-content{
     padding: 15px;
-    background-color: #f8f184;
+    background-color: #727272;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #multimedia p{
     font-size: 14px;
+}
+#multimedia .yellow{
+color: var(--yellow-color);
+}
+/*design de la partie contact - formilaire*/
+#contact{
+    background-color: darkslategrey;
+    padding: 70px 0;
 }

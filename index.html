@@ -196,7 +196,7 @@ surnaturelles menacent son existence.
     <div class="slider-content">
         <h2>ACTION, ADVENTURE </h2>
         <h3>Batman Begins </h3>
-        <P>IMDB :<samp>8.2</samp></P>
+        <P>IMDB :<samp class="yellow">8.2</samp></P>
         <P>
             Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément
 traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de
@@ -212,35 +212,43 @@ la lutte contre le crime sous le nom de Batman.
 
 </section>
 <!--formulaire-->
+<section id="contact">
 <div>
     <h2>PRENONS CONTACT </h2>
     <form action="">
-        <label for="email">ADRESS EMAIL </label>
+        <label class="titre" for="email">ADRESS EMAIL </label>
         <input type="email" name="email" placeholder="email"><br>
-        <label for="NEWSLETTER">NEWSLETTER</label><br>
+        <label class="titre" for="NEWSLETTER">NEWSLETTER</label><br>
         <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de
             Batman :</label>
             <input type="checkbox">
             <br>
             <div>
                 <span> la fréquence à laquelle vous souhaitez recevoir votre newsletter </span>
-            <span>
+            <span class="icon">
                 <img src="./assets/Logos/icon_flèche_2.png" alt="">
             </span>
             </div>
             <div>
-                <p>
+                <p class="news">
                     Souhaitez-vous recevoir des news
                 </p>
+                <div class="btn-group">
+                    
+                    <input type="radio" id="film">
+                    <label for="">des films</label>
+                    <input type="radio" id="comics">
+                    <label for="">des comics</label>
+                    <input type="radio" id="tout">
+                    <label for="">des films</label>
+                </div>
             </div>
-            <a href="">Des films</a>
-            <a href="">Des comics</a>
-            <a href="">Des tout</a>
-            <p>MESSAGE</p>
+            <p class="titre">MESSAGE</p>
             <textarea name="" id="" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
     <input type="submit" value="CONFIRMER">
         </form>
 </div>
+</section>
 <!--section citation-->
 <section>
     <div>
