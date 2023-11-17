@@ -174,3 +174,69 @@ color: var(--yellow-color);
     background-color: darkslategrey;
     padding: 70px 0;
 }
+#contact .form{
+    width: 50%;
+    margin: 0 auto;
+}
+#contact h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 32px;
+}
+#contact .titre{
+    display: block;
+    margin: 28px 0;
+}
+#contact .form input[type='email'], textarea{
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 80%;
+    border-bottom: 2px solid rgb(120, 120, 120);
+    background-color: transparent;
+    padding: 2px 0;
+    
+}
+#contact .news{
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(120, 120, 120);
+}
+
+#contact .icon img{
+transform: rotate(90deg);
+width: 20px;
+}::-webkit-input-placeholder{}
+::placeholder{
+    color:#f8f184;
+    font-size: 15px;
+}
+.btn-group{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.form input[type='radio']{
+    opacity: 0;
+}
+.btn-group label{
+    cursor: pointer;
+    border: 20px solid;
+    border-color: #19587D;
+    padding: 10px;
+   -o-border-image: linear-gradient(
+        69deg, red, blue
+    )1;
+    border-image: linear-gradient(
+        69deg, red, blue
+    )1;
+    font-size: 15px;
+
+}
+input[type='submit']{
+    display:block;
+    width: 230px;
+    margin: 25px auto;
+    padding: 15px 0;
+    cursor: pointer;
+}
