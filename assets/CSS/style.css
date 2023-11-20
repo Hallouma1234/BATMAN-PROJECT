@@ -240,3 +240,33 @@ input[type='submit']{
     padding: 15px 0;
     cursor: pointer;
 }
+#citation{
+    margin: 90px;}
+#citation .citation-carte{
+text-align: center;
+width: 50%;
+margin: 0 auto;
+}
+#citation .citation-auteur{
+    padding-top: 10%;
+    font-size: 20px;
+    font-family: 'rajdhani';
+}
+#citation .guillemets-close{
+    float: right;
+}
+/*disine de footer*/
+footer{
+    margin-top: 162px;
+}
+footer .text-footer{
+    text-align: center;
+    font-size: 14px;
+}
+footer .social-footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer .social-item{
+    padding: 15px;
+}
